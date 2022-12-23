@@ -1,0 +1,45 @@
+:root{
+    --primary:hsla(245, 97%, 63%, 0.65);
+    --secondary:hsla(30, 96%, 62%, 0.65);
+}
+body{
+    background-image: url(image/story-1.jpeg);
+    background-blend-mode:color;
+    background-size: cover;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+}
+h2{
+    color: black;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+button{
+    border: none;
+    padding:10px 10px 10px 10px;
+    
+    color: white;
+    border-radius: 10px;
+    width: 300px;
+    height: 60px;
+    font-size: 19px;
+    font-weight: bold;
+}
+#increment-btn{
+    background-color: rgb(139, 0, 0);
+}
+button:active{
+    border: 2px solid blue;
+}
+#save-btn{
+    margin-top: 10px;
+    background-color: green;
+}
